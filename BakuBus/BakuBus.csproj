@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Maps.MapControl.WPF" Version="1.0.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Repositories\Concretes\" />
+    <Folder Include="Repositories\Contexts\" />
+    <Folder Include="ResourceDictionaries\" />
+    <Folder Include="StaticFiles\AudioFiles\" />
+    <Folder Include="StaticFiles\Images\" />
+    <Folder Include="UserControls\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,32 @@
+﻿<Window x:Class="Source.Views.MainView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Source.Views" xmlns:map="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF"
+        mc:Ignorable="d"
+        Title="MainView" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+
+    
+
+
+    <Grid>
+        
+
+
+        <Border Background="White" Opacity="0.85" HorizontalAlignment="Left" Width="180" Margin="0 20 0 20" Panel.ZIndex="1">
+            <StackPanel VerticalAlignment="Center">
+                <ComboBox Name="BusComboBox" Height="25" Width="150" ItemsSource="{Binding MyBuses.BusNumbers}" SelectedItem="{Binding SelectedBus}" ></ComboBox>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Button Content="Search" Margin="0 10 20 0" Width="70" Command="{Binding SearchCommand}"></Button>
+                    <Button Content="Reset" Margin="0 10 0 0" Width="70" Command="{Binding ResetCommand}"></Button>
+                </StackPanel>
+            </StackPanel>
+            
+        </Border>
+
+
+        <map:Map Name="MainMap" Center="40.41507631418173, 49.85335487708677" ZoomLevel="15">
+        </map:Map>
+    </Grid>
+</Window>
