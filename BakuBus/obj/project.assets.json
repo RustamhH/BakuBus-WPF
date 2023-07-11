@@ -43,11 +43,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WinForm & WPF\\BakuBus\\BakuBus\\BakuBus.csproj",
+      "projectUniqueName": "C:\\Users\\RustamH\\Desktop\\BakuBus-WPF\\BakuBus\\BakuBus.csproj",
       "projectName": "BakuBus",
-      "projectPath": "D:\\WinForm & WPF\\BakuBus\\BakuBus\\BakuBus.csproj",
+      "projectPath": "C:\\Users\\RustamH\\Desktop\\BakuBus-WPF\\BakuBus\\BakuBus.csproj",
       "packagesPath": "C:\\Users\\RustamH\\.nuget\\packages\\",
-      "outputPath": "D:\\WinForm & WPF\\BakuBus\\BakuBus\\obj\\",
+      "outputPath": "C:\\Users\\RustamH\\Desktop\\BakuBus-WPF\\BakuBus\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\RustamH\\AppData\\Roaming\\NuGet\\NuGet.Config",

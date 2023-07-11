@@ -22,3 +22,30 @@ D:\WinForm & WPF\BakuBus\BakuBus\obj\Debug\net6.0-windows\ref\BakuBus.dll
 D:\WinForm & WPF\BakuBus\BakuBus\obj\Debug\net6.0-windows\Views\MainView.g.cs
 D:\WinForm & WPF\BakuBus\BakuBus\obj\Debug\net6.0-windows\Views\MainView.baml
 D:\WinForm & WPF\BakuBus\BakuBus\obj\Debug\net6.0-windows\App.baml
+C:\Users\RustamH\Desktop\BakuBus-WPF\BakuBus\bin\Debug\net6.0-windows\BakuBus.exe
+C:\Users\RustamH\Desktop\BakuBus-WPF\BakuBus\bin\Debug\net6.0-windows\BakuBus.deps.json
+C:\Users\RustamH\Desktop\BakuBus-WPF\BakuBus\bin\Debug\net6.0-windows\BakuBus.runtimeconfig.json
+C:\Users\RustamH\Desktop\BakuBus-WPF\BakuBus\bin\Debug\net6.0-windows\BakuBus.dll
+C:\Users\RustamH\Desktop\BakuBus-WPF\BakuBus\bin\Debug\net6.0-windows\BakuBus.pdb
+C:\Users\RustamH\Desktop\BakuBus-WPF\BakuBus\bin\Debug\net6.0-windows\Microsoft.Maps.MapControl.WPF.dll
+C:\Users\RustamH\Desktop\BakuBus-WPF\BakuBus\obj\Debug\net6.0-windows\BakuBus.csproj.AssemblyReference.cache
+C:\Users\RustamH\Desktop\BakuBus-WPF\BakuBus\obj\Debug\net6.0-windows\Views\MainView.g.cs
+C:\Users\RustamH\Desktop\BakuBus-WPF\BakuBus\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\RustamH\Desktop\BakuBus-WPF\BakuBus\obj\Debug\net6.0-windows\BakuBus_MarkupCompile.cache
+C:\Users\RustamH\Desktop\BakuBus-WPF\BakuBus\obj\Debug\net6.0-windows\BakuBus_MarkupCompile.lref
+C:\Users\RustamH\Desktop\BakuBus-WPF\BakuBus\obj\Debug\net6.0-windows\App.baml
+C:\Users\RustamH\Desktop\BakuBus-WPF\BakuBus\obj\Debug\net6.0-windows\Views\MainView.baml
+C:\Users\RustamH\Desktop\BakuBus-WPF\BakuBus\obj\Debug\net6.0-windows\BakuBus.g.resources
+C:\Users\RustamH\Desktop\BakuBus-WPF\BakuBus\obj\Debug\net6.0-windows\BakuBus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RustamH\Desktop\BakuBus-WPF\BakuBus\obj\Debug\net6.0-windows\BakuBus.AssemblyInfoInputs.cache
+C:\Users\RustamH\Desktop\BakuBus-WPF\BakuBus\obj\Debug\net6.0-windows\BakuBus.AssemblyInfo.cs
+C:\Users\RustamH\Desktop\BakuBus-WPF\BakuBus\obj\Debug\net6.0-windows\BakuBus.csproj.CoreCompileInputs.cache
+C:\Users\RustamH\Desktop\BakuBus-WPF\BakuBus\obj\Debug\net6.0-windows\BakuBus.csproj.CopyComplete
+C:\Users\RustamH\Desktop\BakuBus-WPF\BakuBus\obj\Debug\net6.0-windows\BakuBus.dll
+C:\Users\RustamH\Desktop\BakuBus-WPF\BakuBus\obj\Debug\net6.0-windows\refint\BakuBus.dll
+C:\Users\RustamH\Desktop\BakuBus-WPF\BakuBus\obj\Debug\net6.0-windows\BakuBus.pdb
+C:\Users\RustamH\Desktop\BakuBus-WPF\BakuBus\obj\Debug\net6.0-windows\BakuBus.genruntimeconfig.cache
+C:\Users\RustamH\Desktop\BakuBus-WPF\BakuBus\obj\Debug\net6.0-windows\ref\BakuBus.dll
+C:\Users\RustamH\Desktop\BakuBus-WPF\BakuBus\obj\Debug\net6.0-windows\ResourceDictionaries\PushPinStyleRD.baml
+C:\Users\RustamH\Desktop\BakuBus-WPF\BakuBus\obj\Debug\net6.0-windows\ResourceDictionaries\ToolTipStyleRD.baml
+C:\Users\RustamH\Desktop\BakuBus-WPF\BakuBus\obj\Debug\net6.0-windows\ResourceDictionaries\ButtonTemplateRD.baml

@@ -8,16 +8,24 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="StaticFiles\Images\BakuBusLogo.png" />
+    <None Remove="StaticFiles\Images\BusImage.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.Maps.MapControl.WPF" Version="1.0.0.3" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Repositories\Concretes\" />
     <Folder Include="Repositories\Contexts\" />
-    <Folder Include="ResourceDictionaries\" />
     <Folder Include="StaticFiles\AudioFiles\" />
-    <Folder Include="StaticFiles\Images\" />
     <Folder Include="UserControls\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="StaticFiles\Images\BakuBusLogo.png" />
+    <Resource Include="StaticFiles\Images\BusImage.jpg" />
   </ItemGroup>
 
 </Project>

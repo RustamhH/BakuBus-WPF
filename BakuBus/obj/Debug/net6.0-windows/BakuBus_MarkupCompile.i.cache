@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\WinForm & WPF\BakuBus\BakuBus\obj\Debug\net6.0-windows\
+C:\Users\RustamH\Desktop\BakuBus-WPF\BakuBus\obj\Debug\net6.0-windows\
 BakuBus
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-D:\WinForm & WPF\BakuBus\BakuBus\App.xaml
-11256845736
+C:\Users\RustamH\Desktop\BakuBus-WPF\BakuBus\App.xaml
+41353206156
 
 11-1632000890
 195-963143379
-Views\MainView.xaml;
+ResourceDictionaries\ButtonTemplateRD.xaml;ResourceDictionaries\PushPinStyleRD.xaml;ResourceDictionaries\ToolTipStyleRD.xaml;Views\MainView.xaml;
 
 True
 

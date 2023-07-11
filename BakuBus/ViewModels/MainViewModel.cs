@@ -26,6 +26,11 @@ namespace BakuBus.ViewModels
             => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(proPertyName));
 
 
+
+
+        public Attributes BusTooltip { get; set; }
+
+
         public RelayCommand SearchCommand { get; set; }
         public RelayCommand ResetCommand { get; set; }
 
@@ -109,7 +114,9 @@ namespace BakuBus.ViewModels
                 Pushpin pushpin = new();
                 pushpin.Location = new(Convert.ToDouble(item.attributes.LATITUDE), Convert.ToDouble(item.attributes.LONGITUDE));
                 pushpin.Content = item.attributes.DISPLAY_ROUTE_CODE;
-
+                pushpin.Tag = item.attributes;
+                pushpin.ToolTip = new();
+                pushpin.MouseEnter += Focus;
 
                 if (!MyBuses.BusNumbers.Contains(item.attributes.DISPLAY_ROUTE_CODE)) 
                 { 
@@ -124,16 +131,30 @@ namespace BakuBus.ViewModels
                         {
                             if(p.Content.ToString()== item.attributes.DISPLAY_ROUTE_CODE)
                             {
-                                pushpincolor = p.Background;
+                                pushpincolor = p.BorderBrush;
                             }
                         }
                     }
                 }
-                pushpin.Background = pushpincolor;
+                pushpin.BorderBrush = pushpincolor;
                 Map.Children.Add(pushpin);
 
             }
         }
+
+        
+        private void Focus(object sender,EventArgs a)
+        {
+            Pushpin pushpin = sender as Pushpin;
+            BusTooltip = pushpin.Tag as Attributes;
+        }
+
+        
+        
+        
+        
+
+
 
 
         public MainViewModel(Map map = null)

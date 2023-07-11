@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "omUfXeQUyfXGdagInDamKISvl68O9qJLefmScX0YT0vdky0socCvHMtC7ZOyzkKeCDlpQb13jz3qlfidG+AK7Q==",
+  "dgSpecHash": "9FVuApsbIyG7KOlMRgEpc+fL6Z/eqVmUh2w7M9jGiUMuyCd2uFkz+64QN4+mE3AjV7CBRVzPsM8WNGozdruk3Q==",
   "success": true,
-  "projectFilePath": "D:\\WinForm & WPF\\BakuBus\\BakuBus\\BakuBus.csproj",
+  "projectFilePath": "C:\\Users\\RustamH\\Desktop\\BakuBus-WPF\\BakuBus\\BakuBus.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RustamH\\.nuget\\packages\\microsoft.maps.mapcontrol.wpf\\1.0.0.3\\microsoft.maps.mapcontrol.wpf.1.0.0.3.nupkg.sha512"
   ],

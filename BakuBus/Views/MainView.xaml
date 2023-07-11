@@ -7,26 +7,33 @@
         mc:Ignorable="d"
         Title="MainView" Height="450" Width="800" WindowStartupLocation="CenterScreen">
 
-    
+
 
 
     <Grid>
-        
+
 
 
         <Border Background="White" Opacity="0.85" HorizontalAlignment="Left" Width="180" Margin="0 20 0 20" Panel.ZIndex="1">
-            <StackPanel VerticalAlignment="Center">
-                <ComboBox Name="BusComboBox" Height="25" Width="150" ItemsSource="{Binding MyBuses.BusNumbers}" SelectedItem="{Binding SelectedBus}" ></ComboBox>
-                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                    <Button Content="Search" Margin="0 10 20 0" Width="70" Command="{Binding SearchCommand}"></Button>
-                    <Button Content="Reset" Margin="0 10 0 0" Width="70" Command="{Binding ResetCommand}"></Button>
+            <StackPanel>
+                
+                <Image Source="/StaticFiles/Images/BakuBusLogo.png"/>
+                <StackPanel VerticalAlignment="Center">
+                    <ComboBox x:Name="BusComboBox" Height="25" Width="150" ItemsSource="{Binding MyBuses.BusNumbers}" SelectedItem="{Binding SelectedBus}" />
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Button Template="{DynamicResource RoundedButton}" Content="Search" Margin="0 10 20 0" Height="25" Width="70" Command="{Binding SearchCommand}"/>
+                        <Button Template="{DynamicResource RoundedButton}" Content="Reset" Margin="0 10 0 0" Width="70" Height="25" Command="{Binding ResetCommand}"/>
+                    </StackPanel>
+                    <TextBlock Text="Created by Rustam Hasanli" FontStyle="Italic" Opacity="0.5" FontSize="10" Margin="0 120 0 0" HorizontalAlignment="Center"></TextBlock>
                 </StackPanel>
+
             </StackPanel>
-            
+
         </Border>
 
 
         <map:Map Name="MainMap" Center="40.41507631418173, 49.85335487708677" ZoomLevel="15">
+
         </map:Map>
     </Grid>
 </Window>

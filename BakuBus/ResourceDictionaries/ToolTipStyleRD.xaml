@@ -1,0 +1,40 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:map="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF">
+    
+    <Style TargetType="ToolTip">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ToolTip">
+                    <Grid>
+                        <Border Background="White" CornerRadius="3" Width="600">
+                            <StackPanel>
+                                <TextBlock HorizontalAlignment="Center" FontSize="14" FontWeight="Bold" Text="{Binding BusTooltip.ROUTE_NAME}"></TextBlock>
+                                <Separator Background="Red" Height="20"></Separator>
+                                <TextBlock HorizontalAlignment="Center" FontSize="14" FontWeight="Bold" Text="{Binding BusTooltip.PLATE}" ></TextBlock>
+                                <Image Source="/StaticFiles/Images/BusImage.jpg"  ></Image>
+                                
+                                
+                                
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                    <TextBlock FontSize="11" FontWeight="Bold" Text="Cari: "></TextBlock>
+                                    <TextBlock FontSize="11" FontWeight="Bold" Text="{Binding BusTooltip.PREV_STOP}"></TextBlock>
+                                </StackPanel>
+                                
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                    <TextBlock FontSize="11" FontWeight="Bold" Text="Növbəti: "></TextBlock>
+                                    <TextBlock FontSize="11" FontWeight="Bold" Text="{Binding BusTooltip.CURRENT_STOP}"></TextBlock>
+                                </StackPanel>
+                                
+                                
+                                
+                            </StackPanel>
+                        </Border>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+</ResourceDictionary>
