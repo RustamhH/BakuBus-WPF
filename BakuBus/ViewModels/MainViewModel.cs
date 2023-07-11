@@ -38,31 +38,15 @@ namespace BakuBus.ViewModels
             set { selectedbus = value; INotifyPropertyChanged(); }
         }
 
+        public static Bakubus MyBuses { get; set; }
 
-
-        private Map map;
-
-        public Map Map
-        {
-            get { return map; }
-            set { map = value; INotifyPropertyChanged(); }
-        }
+        public static Map Map { get; set; }
 
 
 
 
-        
 
-        private Bakubus? myBuses;
-        public Bakubus? MyBuses
-        {
-            get => myBuses;
-            set
-            {
-                myBuses = value;
-                INotifyPropertyChanged();
-            }
-        }
+
 
 
 
@@ -101,47 +85,15 @@ namespace BakuBus.ViewModels
 
 
 
-        private void ReadData()
-        {
-            MyBuses = JsonFileHandler.Read<Bakubus>("bakubusApi.json");
-            foreach (var item in MyBuses.BUS) {
-                Brush pushpincolor = new SolidColorBrush();
-                Pushpin pushpin = new();
-                pushpin.Location = new(Convert.ToDouble(item.attributes.LATITUDE), Convert.ToDouble(item.attributes.LONGITUDE));
-                pushpin.Content = item.attributes.DISPLAY_ROUTE_CODE;
-
-
-                if (!MyBuses.BusNumbers.Contains(item.attributes.DISPLAY_ROUTE_CODE)) 
-                { 
-                    MyBuses.BusNumbers.Add(item.attributes.DISPLAY_ROUTE_CODE);
-                    pushpincolor= new SolidColorBrush(Color.FromRgb(Convert.ToByte(Random.Shared.Next(0, 255)), Convert.ToByte(Random.Shared.Next(0, 255)), Convert.ToByte(Random.Shared.Next(0, 255))));
-                }
-                else
-                {
-                    foreach (var mapch in Map.Children)
-                    {
-                        if(mapch is Pushpin p)
-                        {
-                            if(p.Content.ToString()== item.attributes.DISPLAY_ROUTE_CODE)
-                            {
-                                pushpincolor = p.Background;
-                            }
-                        }
-                    }
-                }
-                pushpin.Background = pushpincolor;
-                Map.Children.Add(pushpin);
-
-            }
-        }
+        
 
 
         public MainViewModel(Map map = null)
         {
             Map = map;
-            ReadData();
             SearchCommand = new(Search);
             ResetCommand = new(Reset);
+            
         }
 
 
