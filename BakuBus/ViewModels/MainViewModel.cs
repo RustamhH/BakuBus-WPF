@@ -90,7 +90,6 @@ namespace BakuBus.ViewModels
 
 
 
-<<<<<<< HEAD
         private void ReadData()
         {
             MyBuses = JsonFileHandler.Read<Bakubus>("bakubusApi.json");
@@ -126,10 +125,6 @@ namespace BakuBus.ViewModels
 
             }
         }
-=======
-        
->>>>>>> 776ccdedb053b049da0db3dd4b929cdde8ffcc89
-
         
         private void Focus(object sender,EventArgs a)
         {
@@ -148,6 +143,7 @@ namespace BakuBus.ViewModels
         public MainViewModel(Map map = null)
         {
             Map = map;
+            ReadData();
             SearchCommand = new(Search);
             ResetCommand = new(Reset);
             

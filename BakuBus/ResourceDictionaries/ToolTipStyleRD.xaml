@@ -7,23 +7,23 @@
             <Setter.Value>
                 <ControlTemplate TargetType="ToolTip">
                     <Grid>
-                        <Border Background="White" CornerRadius="3" Width="600">
+                        <Border Background="White" CornerRadius="3" Height="222" Width="400">
                             <StackPanel>
-                                <TextBlock HorizontalAlignment="Center" FontSize="14" FontWeight="Bold" Text="{Binding BusTooltip.ROUTE_NAME}"></TextBlock>
-                                <Separator Background="Red" Height="20"></Separator>
-                                <TextBlock HorizontalAlignment="Center" FontSize="14" FontWeight="Bold" Text="{Binding BusTooltip.PLATE}" ></TextBlock>
+                                <TextBlock Margin="0 10 0 0" HorizontalAlignment="Center" FontSize="10" FontWeight="Bold" Text="{Binding BusTooltip.ROUTE_NAME}"></TextBlock>
+                                <Line Margin="0 10 0 0" Stroke="Red" StrokeThickness="2" X1="0" Y1="0" X2="400" Y2="0"></Line>
+                                <TextBlock HorizontalAlignment="Center" FontSize="10" FontWeight="Bold" Text="{Binding BusTooltip.PLATE}" ></TextBlock>
                                 <Image Source="/StaticFiles/Images/BusImage.jpg"  ></Image>
                                 
                                 
                                 
                                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                                    <TextBlock FontSize="11" FontWeight="Bold" Text="Cari: "></TextBlock>
-                                    <TextBlock FontSize="11" FontWeight="Bold" Text="{Binding BusTooltip.PREV_STOP}"></TextBlock>
+                                    <TextBlock FontSize="10" FontWeight="Bold" Text="Cari: "></TextBlock>
+                                    <TextBlock FontSize="10" FontWeight="Bold" Text="{Binding BusTooltip.PREV_STOP}"></TextBlock>
                                 </StackPanel>
                                 
                                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                                    <TextBlock FontSize="11" FontWeight="Bold" Text="Növbəti: "></TextBlock>
-                                    <TextBlock FontSize="11" FontWeight="Bold" Text="{Binding BusTooltip.CURRENT_STOP}"></TextBlock>
+                                    <TextBlock FontSize="10" FontWeight="Bold" Text="Növbəti: "></TextBlock>
+                                    <TextBlock FontSize="10" FontWeight="Bold" Text="{Binding BusTooltip.CURRENT_STOP}"></TextBlock>
                                 </StackPanel>
                                 
                                 
