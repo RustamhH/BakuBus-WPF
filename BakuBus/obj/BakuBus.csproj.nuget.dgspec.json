@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\RustamH\\Desktop\\BakuBus-WPF\\BakuBus\\BakuBus.csproj": {}
+    "D:\\WinForm & WPF\\BakuBus-WPF\\BakuBus\\BakuBus.csproj": {}
   },
   "projects": {
-    "C:\\Users\\RustamH\\Desktop\\BakuBus-WPF\\BakuBus\\BakuBus.csproj": {
+    "D:\\WinForm & WPF\\BakuBus-WPF\\BakuBus\\BakuBus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RustamH\\Desktop\\BakuBus-WPF\\BakuBus\\BakuBus.csproj",
+        "projectUniqueName": "D:\\WinForm & WPF\\BakuBus-WPF\\BakuBus\\BakuBus.csproj",
         "projectName": "BakuBus",
-        "projectPath": "C:\\Users\\RustamH\\Desktop\\BakuBus-WPF\\BakuBus\\BakuBus.csproj",
+        "projectPath": "D:\\WinForm & WPF\\BakuBus-WPF\\BakuBus\\BakuBus.csproj",
         "packagesPath": "C:\\Users\\RustamH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RustamH\\Desktop\\BakuBus-WPF\\BakuBus\\obj\\",
+        "outputPath": "D:\\WinForm & WPF\\BakuBus-WPF\\BakuBus\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\RustamH\\AppData\\Roaming\\NuGet\\NuGet.Config",
